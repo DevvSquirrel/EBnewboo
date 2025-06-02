@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Scraping com Python e Selenium</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      color: #00d4ff;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background-color: #1e1e2f;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    h2 {
+      color: #00ffe5;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: inside disc;
+      color: #e0e0e0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      background: #00d4ff;
+      color: #000;
+      padding: 15px 40px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background: #00aacc;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Domine o Web Scraping com Python</h1>
+    <p>Aprenda a automatizar a coleta de dados da web e crie seu próprio rastreador de preços com um projeto profissional.</p>
+  </header>
+
+  <section>
+    <div class="card" id="beneficios">
+      <h2>📘 O que você vai aprender</h2>
+      <ul>
+        <li>Como usar Selenium, Pandas e WebDriver na prática</li>
+        <li>Construir um rastreador de preços funcional e automatizado</li>
+        <li>Gerar alertas, exportar dados e integrá-los a dashboards</li>
+        <li>Evitar erros legais com boas práticas éticas de scraping</li>
+      </ul>
+    </div>
+
+    <div class="card" id="publico">
+      <h2>🎯 Para quem é esse eBook?</h2>
+      <ul>
+        <li>Estudantes de programação e entusiastas de Python</li>
+        <li>Profissionais de tecnologia e automação de dados</li>
+        <li>Analistas e empreendedores digitais que monitoram concorrentes</li>
+        <li>Quem quer aprender fazendo — com um projeto real!</li>
+      </ul>
+    </div>
+
+    <div class="card" id="bonus">
+      <h2>🎁 Bônus Exclusivos</h2>
+      <ul>
+        <li>Script 100% funcional comentado e adaptável</li>
+        <li>Dicas de APIs, ferramentas e extensões para scraping</li>
+        <li>Checklist ético e legal para scraping seguro</li>
+        <li>Desafios práticos para expandir o projeto</li>
+      </ul>
+    </div>
+
+    <div class="cta">
+      <a href="#">📥 QUERO MEU EBOOK AGORA</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Devsquirrel . Todos os direitos reservados.
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('#beneficios', { delay: 200, distance: '40px', origin: 'left' });
+    ScrollReveal().reveal('#publico', { delay: 400, distance: '40px', origin: 'right' });
+    ScrollReveal().reveal('#bonus', { delay: 600, distance: '40px', origin: 'bottom' });
+    ScrollReveal().reveal('.cta', { delay: 800, scale: 0.85 });
+  </script>
+
+</body>
+</html>
